@@ -13,7 +13,7 @@ Dedicated device features
 Android includes APIs to help people using dedicated devices focus on their tasks. 
 You typically call these APIs from a custom home app that you develop. 
 
-#Your custom home app can use some, or all, of the following APIs:
+# Your custom home app can use some, or all, of the following APIs:
 
 * Run the system in an immersive, kiosk-like fashion where devices are locked to a whitelisted set of apps using lock task mode.
 * Share a device between multiple users (such as shift workers or public-kiosk users) by managing ephemeral and secondary users.
@@ -25,7 +25,7 @@ You typically call these APIs from a custom home app that you develop.
 Run the following command in ADB
 
 # Device Owner Command
-adb shell dpm set-device-owner nikhil.bhople.kioskdemoapp/.kiosk.DeviceAdmin
+adb shell dpm set-device-owner nikhil.bhople.kioskmode/.kiosk.DeviceAdmin
 
 You can exit kiosk mode by clicking EXIT button in app
 And if you want to remove device owner and exit then click on REMOVE DEVICE OWNER AND EXIT button in app
