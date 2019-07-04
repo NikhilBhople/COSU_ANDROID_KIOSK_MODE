@@ -1,0 +1,8 @@
+# for setting app as device owner.
+Run the following command in ADB
+
+# Device Owner Command
+adb shell dpm set-device-owner nikhil.bhople.kioskmode/.kiosk.DeviceAdmin
+
+You can exit kiosk mode by clicking EXIT button
+And if you want to remove device owner and exit then click on REMOVE DEVICE OWNER AND EXIT button
